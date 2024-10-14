@@ -1,0 +1,29 @@
+{
+    "name": "@particle-network/thresh-sig",
+    "version": "0.7.8",
+    "type": "module",
+    "files": [
+        "dist",
+        "esm",
+        "wasm"
+    ],
+    "main": "dist/index.js",
+    "module": "esm/index.js",
+    "types": "dist/index.d.ts",
+    "sideEffects": false,
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@ethereumjs/tx": "^4.2.0",
+        "@ethereumjs/common": "^4.4.0",
+        "buffer": "^6.0.3",
+        "elliptic": "^6.5.4"
+    },
+    "devDependencies": {
+        "@types/elliptic": "^6.4.14",
+        "esbuild": "^0.15.10",
+        "esbuild-plugin-replace": "^1.4.0",
+        "prettier": "^2.6.2"
+    }
+}
